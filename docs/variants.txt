@@ -1,0 +1,44 @@
+Notation:
+Na, Nm, Nc, Nh : the number of blocks of associated data, plaintext, ciphertext, and hash message, respectively.
+
+v1: spoc64
+
+a. Design goal
+Support for authenticated encryption, decryption.
+Basic iterative architecture to optimize throughput to area ratio.
+No BRAMs, no DSP units.
+All RAMs using asynchronous read.
+
+b. Supported maximum sizes of inputs
+Not evaluated.
+
+c. Reference software implementation
+
+spoc64sliscplight192v1
+
+d. Non-default values of generics and constants
+None
+
+e. Block sizes
+
+AD block size = 64 bits
+Plaintext/Ciphertext block size = 64 bits
+
+f. Execution times
+
+Execution time of authenticated encryption:
+        219 + (Na*109) + (Nm*111)
+
+Execution time of authenticated decryption:
+        219 + (Na*109) + (Nc*111)
+
+g. Latencies
+
+Latency of authenticated encryption:
+Not evaluated.
+
+Latency of authenticated decryption:
+Not evaluated.
+
+h. Difference between execution times for a new key and the same key
+Not evaluated.

@@ -1,0 +1,29 @@
+A. Hardware Description Language: Mixed Verilog and VHDL
+
+B. Use of LWC Package Files:
+
+    File:                           Used:       Release:        Modified:
+    NIST_LWAPI_pkg.vhd              Y           v1.1.0            N
+    StepDownCountLd.vhd             Y           v1.1.0            N
+    data_piso.vhd                   Y           v1.1.0            N
+    data_sipo.vhd                   Y           v1.1.0            N
+    key_piso.vhd                    Y           v1.1.0            N
+    PreProcessor.vhd                Y           v1.1.0            N
+    PostProcessor.vhd               Y           v1.1.0            N
+    fwft_fifo.vhd                   Y           v1.1.0            N
+    LWC.vhd                         Y           v1.1.0            N
+
+C. Supported segment types: npub, ad, data, tag
+Order of segment types:
+
+    Encryption input:   npub, ad, data
+    Encryption output:  data, tag
+    Decryption input:   npub, ad, data, tag
+    Decryption output:  data, tag
+
+D. Deviations from LWC Hardware API:
+
+    Minimum compliance criteria:        N/A
+    Interface:                          N/A
+    Communication Protocol:             N/A
+    Timing Characteristics:             N/A
