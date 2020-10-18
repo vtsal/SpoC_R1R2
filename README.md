@@ -1,2 +1,4 @@
-# SpoC_R1R2
-Spoc64 for NIST LWC upgraded to LWC 1.1.0 and correcting minor errors
+Hardware Design Group: Virginia Tech Signatures Analysis Lab
+Primary Hardware Designer: William Diehl, wdiehl@vt.edu
+Academic advisor: N/A
+LWC candidate: Spoc
